@@ -27,39 +27,6 @@ export default {
 };
 </script>
 <style scoped>
-.footer {
-  background-color: #086858;
-}
-.input {
-  background-color: #085838;
-  border: 0px;
-}
-.line {
-  margin: 20px;
-  width: 95%;
-  background-color: darkgrey;
-}
-.columns {
-  padding-left: 20px;
-  padding-top: 60px;
-}
-li {
-  line-height: 45px;
-  font-size: 14px;
-}
-.links {
-  font-size: 25px;
-  font-weight: 100;
-}
-.second-footer {
-  background-color: #024731;
-  height: 29vh;
-}
-.underline {
-  float: left;
-}
-.footer-links {
-  display: inline-block;
-  padding: 1.2rem;
-}
+
+
 </style>

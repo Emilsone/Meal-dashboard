@@ -65,7 +65,7 @@
       <div class="menu-container px-1 has-background-white">
         <div class="menu-wrapper py-1">
           <aside class="menu">
-            <p class="menu-label has-text-lighter">General</p>
+            <p class="menu-label has-text-lighter">Kitchen</p>
             <ul class="menu-list">
               <li>
                 <a href="#" class="has-text-black">
@@ -74,50 +74,60 @@
                 >
               </li>
             </ul>
-            <p class="menu-label has-text-lighter">Administration</p>
-            <ul class="menu-list">
-              <li>
-                <a href="#" class="is-active has-background-primary">
-                  <i class="fas fa-cogs icon"></i>
-                  Settings</a
-                >
-              </li>
-              <li>
-                <a href="#" class="has-text-black">
-                  <i class="fas fa-users-cog icon"></i>
-                  Manage Team</a
-                >
-                <ul>
-                  <li>
-                    <a href="#" class="has-text-black">
-                      <i class="fas fa-users icon"></i>
-                      Members</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#" class="has-text-black">
-                      <i class="fas fa-user-plus icon"></i>
-                      Add New</a
-                    >
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <p class="menu-label has-text-lighter">Other</p>
             <ul class="menu-list">
               <li>
                 <a href="#" class="has-text-black">
                   <i class="fas fa-comments icon"></i>
-                  Chats</a
+                  Products</a
                 >
               </li>
               <li>
                 <a href="#" class="has-text-black">
                   <i class="fas fa-info-circle icon"></i>
-                  Extras</a
+                  Exhibitions</a
+                >
+              </li>
+              <li>
+                <a href="#" class="has-text-black">
+                  <i class="fas fa-info-circle icon"></i>
+                  Exhibitors</a
+                >
+              </li>
+              <li>
+                <a href="#" class="has-text-black">
+                  <i class="fas fa-info-circle icon"></i>
+                  Invitations</a
+                >
+              </li>
+              <li>
+                <a href="#" class="has-text-black">
+                  <i class="fas fa-info-circle icon"></i>
+                  RFQ</a
+                >
+              </li>
+              <li>
+                <a href="#" class="has-text-black">
+                  <i class="fas fa-info-circle icon"></i>
+                  My Profile</a
                 >
               </li>
             </ul>
+
+            <div class="column">
+              <div class="card has-background-warning has-text-black">
+                <div class="card-header">
+                  <div class="card-header-title has-text-black is-uppercase" id="card-header">
+                    <a href="#" class="has-text-black">
+                      <i class="fas fa-bookmark icon"></i>
+                      Access Events </a
+                    >
+                  </div>
+                </div>
+                <div class="card-content">
+                  <p class="is-size-">click to view digital events</p>
+                </div>
+              </div>
+            </div>
           </aside>
         </div>
       </div>
@@ -130,5 +140,14 @@ export default {
 };
 </script>
 <style scoped>
+.fa-bookmark{
+  background-color: white;
+ padding: 20px 30px;
+ border-radius: 5px;
+}
+#card-header{
+  background-color: rgb(70, 78, 197);
+
+}
 
 </style>

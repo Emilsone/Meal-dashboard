@@ -2,6 +2,10 @@
   <main>
     <section>
       <div class="columns is-variable is-0">
+
+
+
+
         <div
           class="column is-10-desktop is-offset-2-desktop is-9-tablet is-offset-3-tablet is-12-mobile"
         >
