@@ -14,7 +14,7 @@
         </a>
 
         <a href="#" class="navbar-item has-text-weight-bold has-text-black">
-          Admin Dashboard
+          Meal Dashboard
         </a>
         <a
           role="button"
@@ -28,17 +28,8 @@
         </a>
       </div>
       <div class="navbar-menu has-background-white">
-        <div class="navbar-start">
-          <a href="#" class="navbar-item">
-            <i class="fas fa-home icon"></i> Home
-          </a>
-          <a href="#" class="navbar-item">
-            About
-          </a>
-          <a href="#" class="navbar-item">
-            Features
-          </a>
-          <a href="#" class="navbar-item">Pricing</a>
+        <div class="control my-2 mx-auto">
+          <input class="input" type="text" placeholder="Text input">
         </div>
         <div class="navbar-end">
           <a href="#" class="navbar-item">
