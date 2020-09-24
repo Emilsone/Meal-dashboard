@@ -94,7 +94,7 @@
               <div class="column">
                 <div class="card has-background-warning has-text-black">
                   <!-- <div class="card-header"> -->
-                  <div class="card-header-title has-text-black is-uppercase">
+                  <div class="card-header-title has-text-black ">
                     <h1>Connect with exhibitors and start</h1>
                   </div>
                   <!-- </div> -->
@@ -115,8 +115,81 @@
                   </div>
                 </div>
               </div>
-              
             </div>
+          </div>
+
+          <!-- third-card -->
+          <div class="columns  is-variable is-desktop">
+            <!-- <div class="columns"> -->
+              <div class="column is-two-thirds">
+                <div class="card-content" id="contentapp">
+                  <div
+                    class="card"
+                    id="first-card"
+                    
+                  >
+                    <span>
+                      <i
+                        class="fa fa-money"
+                        aria-hidden="true"
+                        style="color"
+                      ></i>
+                    </span>
+                    <p class="subtitle p-6">
+                      Jeff Atwood
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card has-background-light has-text-black ">
+                  <!-- <div class="card-header"> -->
+                  <div class="card-header-title has-text-black">
+                    <h1>Event Update & Feed</h1>
+                  </div>
+                    <img src="../assets/event.png" alt="event image " class="event-image ml-6">
+                  <div class="card-content">
+                    <p class="">No Records Available </p>
+                  </div>
+                </div>
+              </div>
+            <!-- </div> -->
+          </div>
+
+          <div class="columns  is-variable is-desktop">
+            <!-- <div class="columns"> -->
+              <div class="column is-two-thirds">
+                <div class="card-content" id="contentapp">
+                  <div
+                    class="card"
+                    id="first-card"
+                    
+                  >
+                    <span>
+                      <i
+                        class="fa fa-money"
+                        aria-hidden="true"
+                        style="color"
+                      ></i>
+                    </span>
+                    <p class="subtitle p-6">
+                      Jeff Atwood
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card has-background-primary has-text-white ">
+                 
+                  <div class="card-content">
+                    <h1 class="has-text-centered">Welcome to the help center</h1>
+                    <p class="has-text-centered">Explore all advanced features to get maximum buyer engagement </p>
+                  </div>
+                </div>
+              </div>
+            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -128,4 +201,9 @@ export default {
   name: "Main",
 };
 </script>
-<style scoped></style>
+<style scoped>
+.event-image{
+  width: 80%;
+  height: 80%;
+}
+</style>

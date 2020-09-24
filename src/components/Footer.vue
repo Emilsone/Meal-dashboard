@@ -1,6 +1,6 @@
 <template>
   <footer class="second-footer">
-    <div class="columns">
+    <!-- <div class="columns">
       <div class="column has-text-white">
         <ul class="underline">
           <li class="footer-links">Legal</li>
@@ -18,7 +18,7 @@
           <li class="footer-links">Terms & condition</li>
         </ul>
       </div>
-    </div>
+    </div> -->
   </footer>
 </template>
 <script>

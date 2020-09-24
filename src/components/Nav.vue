@@ -14,7 +14,10 @@
         </a>
 
         <a href="#" class="navbar-item has-text-weight-bold has-text-black">
-          Meal Dashboard
+          Kitchen
+          <span class="icon is-small pl-5">
+            <i class="fas fa-globe"></i>  
+          </span>
         </a>
         <a
           role="button"
@@ -28,8 +31,19 @@
         </a>
       </div>
       <div class="navbar-menu has-background-white">
-        <div class="control my-2 mx-auto">
-          <input class="input" type="text" placeholder="Text input">
+        <div class="field my-2 ml-6">
+          <p class="control has-icons-left">
+            <span class="select">
+              <select>
+                <option selected>Select Event</option>
+                <option>Select dropdown</option>
+                <option>With options</option>
+              </select>
+            </span>
+            <span class="icon is-small is-left">
+              <i class="fas fa-globe"></i>
+            </span>
+          </p>
         </div>
         <div class="navbar-end">
           <a href="#" class="navbar-item">
@@ -107,11 +121,14 @@
             <div class="column">
               <div class="card has-background-warning has-text-black">
                 <div class="card-header">
-                  <div class="card-header-title has-text-black is-uppercase" id="card-header">
+                  <div
+                    class="card-header-title has-text-black is-uppercase"
+                    id="card-header"
+                  >
                     <a href="#" class="has-text-black">
                       <i class="fas fa-bookmark icon"></i>
-                      Access Events </a
-                    >
+                      Access Events
+                    </a>
                   </div>
                 </div>
                 <div class="card-content">
@@ -131,14 +148,12 @@ export default {
 };
 </script>
 <style scoped>
-.fa-bookmark{
+.fa-bookmark {
   background-color: white;
- padding: 20px 30px;
- border-radius: 5px;
+  padding: 20px 30px;
+  border-radius: 5px;
 }
-#card-header{
+#card-header {
   background-color: rgb(70, 78, 197);
-
 }
-
 </style>
