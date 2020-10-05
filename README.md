@@ -1,4 +1,3 @@
-# Meal dashboard 
 
 ## Project setup
 ```

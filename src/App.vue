@@ -22,10 +22,10 @@ export default {
 
 <style>
 @import "~bulma/css/bulma.css";
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 
 #app {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
    background-color: #efefef;
 }
 
