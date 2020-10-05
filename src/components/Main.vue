@@ -16,7 +16,7 @@
 
             <div class="columns  is-variable is-desktop my-6">
               <div class="column">
-                <div class="card has-background-white has-text-black">
+                <div class="card has-background-white has-text-black" id="card-one">
                   <!-- <div class="card-header"> -->
                   <div class="card-header-title has-text-black">
                     <h1>Confirm Meeting</h1>
@@ -29,7 +29,7 @@
                 </div>
               </div>
               <div class="column">
-                <div class="card has-background-white has-text-black">
+                <div class="card has-background-white has-text-black" id="card-two">
                   <!-- <div class="card-header"> -->
                   <div class="card-header-title has-text-black">
                     <h1>Enquiry Sent</h1>
@@ -42,7 +42,7 @@
                 </div>
               </div>
               <div class="column">
-                <div class="card has-background-white has-text-black">
+                <div class="card has-background-white has-text-black" id="card-three">
                   <!-- <div class="card-header"> -->
                   <div class="card-header-title has-text-black">
                     <h1>Unread Messages</h1>
@@ -55,7 +55,7 @@
                 </div>
               </div>
               <div class="column">
-                <div class="card has-background-white has-text-black">
+                <div class="card has-background-white has-text-black" id="card-four">
                   <!-- <div class="card-header"> -->
                   <div class="card-header-title has-text-black ">
                     <h1>Message</h1>
@@ -70,9 +70,9 @@
                 </div>
               </div>
               <div class="column">
-                <div class="card has-background-white has-text-black">
+                <div class="card has-background-white has-text-black" id="card-five">
                   <div class="card-header-title has-text-black">
-                    <h1>Connections Request</h1>
+                    <h1>Connections</h1>
                   </div>
                   <!-- </div> -->
                   <div class="card-content">
@@ -242,5 +242,32 @@ span .fa{
 
 .card-body{
   color: #181f2b;
+}
+.card{
+  border-radius: 20px;
+  color: #6C85AD;
+}
+.card h1,p,.icon{
+  color: #6C85AD;
+}
+#card-one p{
+  color: #4E8FFA;
+  font-weight: 900;
+}
+#card-two p{
+  color: #FAA083;
+  font-weight: 900;
+}
+#card-three p{
+  color: #7DE5B6;
+  font-weight: 900;
+}
+#card-four p{
+  color: #FD68A7;
+  font-weight: 900;
+}
+#card-five p{
+  color: #957FE3;
+  font-weight: 900;
 }
 </style>

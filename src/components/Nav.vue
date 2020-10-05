@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="navbar is-fixed-top box-shadow-y">
+    <nav class="navbar is-fixed-top box-shadow-y" id="navbar">
       <div class="navbar-brand">
         <a
           role="button"
@@ -79,9 +79,10 @@
           <aside class="menu">
             <p class="menu-label has-text-lighter">Kitchen</p>
             <ul class="menu-list">
-              <li>
+              <li class="dashboard py-2 ">
                 <a href="#" class="has-text-black">
-                  <i class="fa fa-tachometer-alt icon"></i>
+                  <i class="fa fa-th icon" aria-hidden="true"></i>
+
                   Dashboard</a
                 >
               </li>
@@ -89,37 +90,38 @@
             <ul class="menu-list">
               <li>
                 <a href="#" class="has-text-black">
-                  <i class="fa fa-facebook icon"></i>
+                  <i class="fa fa-cutlery icon" aria-hidden="true"></i>
                   Products</a
                 >
               </li>
               <li>
                 <a href="#" class="has-text-black">
-                  <i class="fas fa-info-circle icon"></i>
-                  Exhibitions</a
-                >
-              </li>
-              <li>
-                <a href="#" class="has-text-black">
-                  <i class="fas fa-address-book-o" aria-hidden="true"></i>
+                  <i class="fa fa-address-book-o icon" aria-hidden="true"></i>
                   Exhibitors</a
                 >
               </li>
               <li>
                 <a href="#" class="has-text-black">
-                  <i class="fas fa-info-circle icon"></i>
+                  <i class="fa fa-tint icon" aria-hidden="true"></i>
+                  Exhibitions</a
+                >
+              </li>
+              <li>
+                <a href="#" class="has-text-black">
+                  <i class="fa fa-gift icon" aria-hidden="true"></i>
                   Invitations</a
                 >
               </li>
               <li>
                 <a href="#" class="has-text-black">
-                  <i class="fas fa-info-circle icon"></i>
+                  <i class="fa fa-question icon" aria-hidden="true"></i>
                   RFQ</a
                 >
               </li>
               <li>
                 <a href="#" class="has-text-black">
-                  <i class="fas fa-info-circle icon"></i>
+                  <i class="fa fa-user icon" aria-hidden="true"></i>
+
                   My Profile</a
                 >
               </li>
@@ -132,12 +134,15 @@
                     class="card-header-title has-text-black "
                     id="card-header"
                   >
-                    <i class="fas fa-bookmark icon"></i>
+                    <i class="fa fa-bookmark icon" aria-hidden="true"></i>
                     <h1 class="has-text-white">Access Events</h1>
                   </div>
                 </div>
                 <div class="card-content">
-                  <p class="is-size-">click  <i class="fas fa-bookmark icon"></i> to view digital events</p>
+                  <p class="is-size-">
+                    click <i class="fa fa-bookmark" aria-hidden="true"></i>
+                    to view digital events
+                  </p>
                 </div>
               </div>
             </div>
@@ -159,20 +164,27 @@ export default {
   border-radius: 5px;
 }
 #card-header {
-  background-color:#416FF8;
+  background-color: #416ff8;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 #digital-card {
   border-radius: 20px;
   padding: 20px;
+   background-color: #f1f6ff;
 }
 .feild {
   /* display: block; */
   margin: auto;
 }
-.control{
+.control {
   text-align: center;
+}
+.dashboard {
+  background-color: #d8ddee;
+}
+.navbar-menu{
+   background-color: #f1f6ff;
 }
 </style>
