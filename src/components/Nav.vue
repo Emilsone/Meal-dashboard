@@ -16,7 +16,7 @@
         <a href="#" class="navbar-item has-text-weight-bold has-text-black">
           Kitchen
           <span class="icon is-small pl-5">
-            <i class="fas fa-globe"></i>  
+            <i class="fas fa-globe"></i>
           </span>
         </a>
         <a
@@ -31,7 +31,7 @@
         </a>
       </div>
       <div class="navbar-menu has-background-white">
-        <div class="field my-2 ml-6">
+        <div class="field  my-2 ml-6">
           <p class="control has-icons-left">
             <span class="select">
               <select>
@@ -40,18 +40,25 @@
                 <option>With options</option>
               </select>
             </span>
-            <span class="icon is-small is-left">
-              <i class="fas fa-globe"></i>
-            </span>
+            <!-- <span class="icon is-small is-left">
+             <i class="fas fa-calendar-check-o" aria-hidden="true"></i>
+
+            </span> -->
           </p>
         </div>
-        <div class="navbar-end">
+        <div class="navbar-end p-6">
           <a href="#" class="navbar-item">
-            Notifications
+            <span><i class="fa fa-bell" aria-hidden="true"></i> </span>
           </a>
+
+          <a href="#" class="navbar-item">
+            <span><i class="fa fa-envelope" aria-hidden="true"></i> </span>
+          </a>
+
           <div class="navbar-item has-dropdown is-hoverable">
+            <img src="../assets/user-1.png" alt="a user icon" class="mt-4" />
             <a href="#" class="navbar-link">
-              Admin
+              John
             </a>
             <div class="navbar-dropdown is-right">
               <a href="#" class="navbar-item">
@@ -74,7 +81,7 @@
             <ul class="menu-list">
               <li>
                 <a href="#" class="has-text-black">
-                  <i class="fas fa-tachometer-alt icon"></i>
+                  <i class="fa fa-tachometer-alt icon"></i>
                   Dashboard</a
                 >
               </li>
@@ -82,7 +89,7 @@
             <ul class="menu-list">
               <li>
                 <a href="#" class="has-text-black">
-                  <i class="fas fa-comments icon"></i>
+                  <i class="fa fa-facebook icon"></i>
                   Products</a
                 >
               </li>
@@ -94,7 +101,7 @@
               </li>
               <li>
                 <a href="#" class="has-text-black">
-                  <i class="fas fa-info-circle icon"></i>
+                  <i class="fas fa-address-book-o" aria-hidden="true"></i>
                   Exhibitors</a
                 >
               </li>
@@ -119,20 +126,18 @@
             </ul>
 
             <div class="column">
-              <div class="card has-background-warning has-text-black">
+              <div class="card has-text-black" id="digital-card">
                 <div class="card-header">
                   <div
-                    class="card-header-title has-text-black is-uppercase"
+                    class="card-header-title has-text-black "
                     id="card-header"
                   >
-                    <a href="#" class="has-text-black">
-                      <i class="fas fa-bookmark icon"></i>
-                      Access Events
-                    </a>
+                    <i class="fas fa-bookmark icon"></i>
+                    <h1 class="has-text-white">Access Events</h1>
                   </div>
                 </div>
                 <div class="card-content">
-                  <p class="is-size-">click to view digital events</p>
+                  <p class="is-size-">click  <i class="fas fa-bookmark icon"></i> to view digital events</p>
                 </div>
               </div>
             </div>
@@ -150,10 +155,24 @@ export default {
 <style scoped>
 .fa-bookmark {
   background-color: white;
-  padding: 20px 30px;
+  padding: 20px 20px;
   border-radius: 5px;
 }
 #card-header {
-  background-color: rgb(70, 78, 197);
+  background-color:#416FF8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#digital-card {
+  border-radius: 20px;
+  padding: 20px;
+}
+.feild {
+  /* display: block; */
+  margin: auto;
+}
+.control{
+  text-align: center;
 }
 </style>
