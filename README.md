@@ -1,4 +1,4 @@
-# farmwebsite
+# Meal Dashboard
 
 ## Project setup
 ```
