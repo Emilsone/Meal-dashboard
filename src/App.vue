@@ -14,9 +14,9 @@ export default {
   name: "App",
   components: {
     Nav,
-    Footer,
     Main,
-  },
+    Footer,
+  }
 };
 </script>
 
