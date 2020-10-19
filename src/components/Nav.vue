@@ -175,7 +175,6 @@ export default {
    background-color: #f1f6ff;
 }
 .feild {
-  /* display: block; */
   margin: auto;
 }
 .control {

@@ -192,6 +192,8 @@
           </div>
         </div>
       </div>
+
+      -->
     </section>
   </main>
 </template>
@@ -269,5 +271,8 @@ span .fa{
 #card-five p{
   color: #957FE3;
   font-weight: 900;
+}
+form-input{
+  background-color: #181f2b
 }
 </style>
